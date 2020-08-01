@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Awesome! <code>#cushcush</code> is noew here!
+          Awesome! <code>#cushcush</code> is now here!
         </p>
         <p>
           아무말아무말아무말 -한빛 <br/>
@@ -24,6 +24,11 @@ function App() {
           rel="noopener noreferrer"
         >
           Let's learn React
+        <a
+          href="https://devhints.io/react"
+          target='_blank'>
+          react-cheatsheet
+        </a>
         </a>
       </header>
     </div>
