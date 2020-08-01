@@ -17,6 +17,7 @@ function App() {
           - 민규 <br/>
           - 찬란 <br/>
         </p>
+        <Card />
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -25,10 +26,11 @@ function App() {
         >
           Let's learn React
         </a>
-        <br/>
         <a
           href="https://devhints.io/react"
-          target='_blank'>
+          target='_blank'
+          rel="noopener noreferrer"
+        >
           react-cheatsheet
         </a>
       </header>
