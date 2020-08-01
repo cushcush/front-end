@@ -12,10 +12,10 @@ function App() {
         </p>
         <p>
           아무말아무말아무말 -한빛 <br/>
-          우갸갸갸우갸갸 - 광훈
-          - 규빈
-          - 민규
-          - 찬란
+          우갸갸갸우갸갸 - 광훈 <br/>
+          - 규빈 <br/>
+          - 민규 <br/>
+          - 찬란 <br/>
         </p>
         <a
           className="App-link"
@@ -24,11 +24,12 @@ function App() {
           rel="noopener noreferrer"
         >
           Let's learn React
+        </a>
+        <br/>
         <a
           href="https://devhints.io/react"
           target='_blank'>
           react-cheatsheet
-        </a>
         </a>
       </header>
     </div>
