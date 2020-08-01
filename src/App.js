@@ -1,4 +1,5 @@
 import React from 'react';
+import Card from './card';
 import logo from './logo.svg';
 import './App.css';
 
