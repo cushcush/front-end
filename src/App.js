@@ -8,17 +8,22 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Awesome <code>src/App.js</code> and save to reload.
+          Awesome! <code>#cushcush</code> is noew here!
         </p>
-        <p>아무말아무말아무말 -한빛</p>
-        <p>우갸갸갸우갸갸 - 광훈</p>
+        <p>
+          아무말아무말아무말 -한빛 <br/>
+          우갸갸갸우갸갸 - 광훈
+          - 규빈
+          - 민규
+          - 찬란
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Let's learn React
         </a>
       </header>
     </div>
