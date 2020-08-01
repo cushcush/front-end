@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Awesome <code>src/App.js</code> and save to reload.
+          Awesome234 <code>src/App.js</code> and save to reload.
         </p>
         <p>아무말아무말아무말 -한빛</p>
         <p>우갸갸갸우갸갸 - 광훈</p>
