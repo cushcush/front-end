@@ -1,5 +1,4 @@
 import React from 'react';
-import './Card.css';
 
 class CardHeader extends React.Component {
     render() {
