@@ -8,10 +8,12 @@ const Header = () => (
     <header className="Menu-header">
         <nav>
             <Link className="App-link" to='/'>Home</Link> &nbsp;
-            <Link className="App-link" to='/card'>card</Link> &nbsp;
+            <Link className="App-link" to='/search'>search</Link> &nbsp;
             <Link className="App-link" to='/dnd'>dnd</Link> &nbsp;
+            <Link className="App-link" to='/card'>card</Link> &nbsp;
+            
             {/* <Link className="App-link" to='/grid'>grid</Link> &nbsp; */}
-            <Link className="App-link" to='/search'>search</Link>
+            
         </nav>
   </header>
 )
