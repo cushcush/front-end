@@ -34,17 +34,18 @@ function RestApiHooksComponent() {
     <div>
       {data.map(({id, img, url, hashtag, userID }) => (
           <div class="card">
+              <p className="date">2020. 08. XX</p>
               <div class="card-header">
                   <a href={url}>
                       <img src={img} />
-                  </a><br/>
+                  </a>
               </div>
               <div class="card-body">
+                <p class="body-content">{id}, {userID}</p>
+                <div style={{height:'15px'}}></div>
                   <div>
                     {keywordBreaks(hashtag)}
                   </div>
-                  <br/>
-                  <p class="body-content">{id}, {userID}</p>
               </div>
           </div>
       ))}
@@ -58,8 +59,8 @@ function RestApiHooksComponent() {
             </li>
         ))}*/
 
-const keywordBreaks = string => 
-  string.split(' ').map((text, index) => (
+const keywordBreaks = list => 
+  list.map((text, index) => (
     <React.Fragment key={`${text}-${index}`}>
       <p class="keyword-btn">{text}</p>
     </React.Fragment>

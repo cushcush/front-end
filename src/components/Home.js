@@ -59,8 +59,8 @@ function RestApiHooksComponent() {
             </li>
         ))}*/
 
-const keywordBreaks = string => 
-  string.split(' ').map((text, index) => (
+const keywordBreaks = list => 
+  list.map((text, index) => (
     <React.Fragment key={`${text}-${index}`}>
       <p class="keyword-btn">{text}</p>
     </React.Fragment>
